@@ -33,10 +33,26 @@
     
     <style>
         body { font-family: Arial, sans-serif; }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-container img {
+            height: 60px;
+            width: auto;
+        }
+        .header-container h1 {
+            font-size: 50px;
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">東日本国際大学</h1>
+    <div class="header-container">
+        <img src="https://github.com/SHINJOONOOK/examresult-higashinipponkokusaidai/blob/main/logo.png?raw=true" alt="大学ロゴ">
+        <h1>東日本国際大学</h1>
+    </div>
     <h2 style="text-align: center;">合否発表</h2>
     <p style="text-align: center; font-size: 14px;">受験番号と生年月日を入力すると、合否結果が表示されます。<br>半角数字で入力してください。</p>
     <div style="text-align: center;">
